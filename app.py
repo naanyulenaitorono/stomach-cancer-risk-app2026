@@ -4,9 +4,7 @@ import pandas as pd
 import joblib
 
 # Load saved model pipeline
-model = joblib.load(
-    "/content/stomach_cancer_risk_model.joblib"
-)
+model = joblib.load("stomach_cancer_risk_model.joblib")
 
 st.title("Early Risk Detection for Stomach Cancer Patients")
 
